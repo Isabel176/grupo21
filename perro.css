@@ -1,0 +1,83 @@
+
+header {
+    background-color: rgba(126, 146, 104, 0.938) ;
+}
+
+.caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+body {
+    background: floralwhite  url("fondo.png");
+}
+
+nav {
+    position: absolute;
+    top: 70px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 30px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: rgb(4, 4, 50);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    text-decoration: dotted;
+    font-family: 'Times New Roman', Times, cursive
+}
+
+nav a:hover {
+	color: #583e0a;
+	text-decoration: underline;
+}
+
+.perros {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+.perros li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid brown;
+	border-radius: 10px;
+	
+}
+
+.perros li:hover {
+	border-color: #583e0a;
+	
+}
+
+.perros li:active {
+	border-color: #088c19;
+}
+
+.productos li:hover h2{
+	font-size: 33px;
+}
+
+.perros h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.poster {
+    width: 200px;
+    height: 200px;
+    
+}

@@ -1,0 +1,18 @@
+.titulo-principal {
+    padding-left: 30px;  
+}
+
+#banner {
+    width: 100%;
+}
+
+/*selectores de clase con . */
+.principal {
+    background: floralwhite ;
+    padding: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+}
+
